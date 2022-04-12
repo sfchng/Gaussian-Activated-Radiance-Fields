@@ -1,1 +1,1 @@
-# Gaussian-Activated-Radiance-Fields-
+# Gaussian-Activated-Radiance-Fields (GARF)
