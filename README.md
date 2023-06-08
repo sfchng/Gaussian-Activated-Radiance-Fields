@@ -57,7 +57,7 @@ The **data** directory should contain the subdirectories **llff** and **bleff**.
 By default, models and TensorBoard event files are saved to `~/output/<GROUP>/<NAME>`. This can be modified using the `--output_root` flag.
 
 ### **Full MLP training (GARF)**:
-### To optimize GARF from scratch by initializing **camera poses with identity**
+#### To optimize GARF from scratch by initializing **camera poses with identity**
 1. For LLFF dataset
 ```
 python train.py --model=garf --yaml=garf_llff --group=<GROUP> --name=<NAME> --data.dataset=llff --data.scene="fern" --optim.sched=!
@@ -68,7 +68,7 @@ python train.py --model=garf --yaml=garf_bleff --group=<GROUP> --name=<NAME> --d
 ```
 
 
-### To optimize GARF from Colmap estimation, by initializing **camera poses with estimation from Colmap**
+#### To optimize GARF from Colmap estimation, by initializing **camera poses with estimation from Colmap**
 1. For LLFF dataset
 ```
 python train.py --model=garf --yaml=garf_llff --group=<GROUP> --name=<NAME> --data.dataset=llff --data.scene="fern" --optim.sched=! --init.pose=True --init.pose_warmup=2000
