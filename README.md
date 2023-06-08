@@ -1,4 +1,4 @@
-# GARF <img src="garfield.png" width="80" height="60">: Gaussian Activated Radiance Fields for High Fidelity Reconstruction \& Pose Estimation
+# GARF <img src="misc/garfield.png" width="80" height="60">: Gaussian Activated Radiance Fields for High Fidelity Reconstruction \& Pose Estimation
 
 ### [Project Page](https://sfchng.github.io/garf/) | [arXiv preprint](https://arxiv.org/abs/2204.05735) | [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930259.pdf) | [Colab Notebook](https://colab.research.google.com/drive/1OFOXP02KeG7ovVaCnRg80fMvV8ZyOKY-?usp=share_link)
 
